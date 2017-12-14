@@ -1,0 +1,56 @@
+* {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  min-height: 95vh;
+  justify-content: center;
+}
+
+.main-container {
+    max-width: 50%;
+    flex: 1;
+    text-align: center;
+}
+
+#theTemp {
+    text-decoration: none;
+    color: #006dcc;
+}
+
+#theTemp:hover {
+    color: #005096;
+}
+
+.weather-info {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.weather-info li {
+    margin: 8px 0px;
+}
+
+#skies-icon {
+    margin: auto;
+}
+
+#weather-button {
+    font-size: 1em;
+}
